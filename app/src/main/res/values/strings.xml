@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Technology Advances</string>
+    <string name="judulapp">Technology Advances</string>
+    <!--Menu Ojek Online-->
+    <string name="ojolmenu">Penjelasan Ojek Online</string>
+    <!--Menu Utama-->
+    <string name="menuutama">Menu Utama</string>
+    <string name="ecom">E - Commerce</string>
+    <string name="ojol">Ojek Online</string>
+    <string name="mitra">Menjadi Mitra</string>
+    <string name="tentang">Tentang Aplikasi</string>
+    <!--Menu Ecommerce-->
+    <string name="menuecom">Penjelasan E - Commerce</string>
+    <!--Menu Mitra-->
+    <string name="menumitra">Cara Menjadi Mitra</string>
+    <!--GOJEK-->
+    <string name="gojek">Gojek</string>
+    <string name="sejarah_gojek">"Gojek (ditulis bergaya sebagai goȷek, sebelumnya ditulis GO-JEK) merupakan sebuah perusahaan teknologi asal Indonesia yang melayani angkutan melalui jasa ojek. Perusahaan ini didirikan pada tahun 2010 di Jakarta oleh Nadiem Makarim. Saat ini, Gojek telah tersedia di 50 kota di Indonesia. Hingga bulan Juni 2016, aplikasi Gojek sudah diunduh sebanyak hampir 10 juta kali di Google Play pada sistem operasi Android, dan telah tersedia di App Store. Gojek juga mempunyai layanan pembayaran digital yang bernama Gopay. Selain di Indonesia, layanan Gojek kini telah tersedia di Thailand, Vietnam dan Singapura. \n
+        \nKelebihan Gojek antara lain:
+        \n1. Tidak perlu sibuk mencari driver ojek.(cukup dari aplikasi)
+        \n2. Harga langsung ditetapkan dari aplikasi( jadi driver tidak bisa bermain curang)
+        \n3. Keamanan terjamin
+        \n4. Bisa cancel orderan .
+        \n5. Jalan bisa sesuai petunjuk yang sudah diarahkan.
+        \nKekurangan Gojek antara lain:
+        \n1. Tidak bisa pilah pilih driver yang sesuai keinginan.
+        \n2. Jika ternyata merubah arah maka bersedia untuk dikenakan bayaran yang lebih.
+        \n3. Pemesanan harus menggunakan internet dan smartphone
+        \n4. Terkadang sering Miss komunikasi antara penumpang dan driver.
+        \n5. Aplikasi sering eror"</string>
+    <!--GRAB-->
+    <string name="grab">Grab</string>
+    <string name="sejarah_grab">"Grab adalah Perusahaan teknologi asal Malaysia yang berkantor di Singapura yang menyediakan aplikasi layanan transportasi angkutan umum meliputi kendaraan bermotor roda 2 maupun roda 4. Perusahaan Grab hanya perusahaan teknologi yang meluncurkan Aplikasi saja dan untuk kendaraannya sendiri adalah kendaraan milik mitra yang sudah bergabung di PT Grab Indonesia.
+        \nKelebihan Grab antara lain:
+        \n1. Sering ada promo dan potongan nya lumayan besar
+        \n2. Dapat pergi kedua tempat sekaligus dalam satu kali orderan
+        \n3. Mencantumkan merk motor dari orderan yang dipesan
+        \nKekurangan Grab antara lain:
+        \n1. Tidak bisa menggabungkan pembayaran tunai dan non tunai
+        \n2. Tidak bisa melakukan order lebih dari satu kali dalam waktu yang bersamaan
+        \n3. Tidak bisa berpindah pindah akun lebih dari 3 kali ke ponsel lain"
+    </string>
+    <!--Shopee-->
+    <string name="shopee">Shopee</string>
+    <string name="sejarah_shopee">"Shopee adalah sebuah aplikasi yang bergerak dibidang jual beli secara online dan dapat diakses secara mudah dengan menggunakan smartphone. Shopee hadir dalam bentuk aplikasi yang memudahkan penggunanya dalam melakukan kegiatan berbelanja secara online tanpa harus ribet menggunakan perangkat komputer. Shopee didirikan pertama kali di bawah naungan SEA Group Singapura pada tahun 2009 oleh Forrest Li. Kemudian aplikasi Shopee diluncurkan di Singapura pada tahun 2015, kemudian memperluas jangkauannya ke berbagai negara tetangga seperti Malaysia, Thailand, Taiwan, Vietnam, Filipina, dan termasuk Indonesia. Di Indonesia, apk Shopee Indonesia berada dibawah naungan PT Internasional Shopee Indonesia yang mulai eksis sejak tahun 2015.
+        \n\nBerikut beberapa fitur yang telah disediakan oleh Shopee:
+        \n1. Gratis Ongkir
+        \nFitur yang paling menarik perhatian pengguna internet di Indonesia yang doyan berbelanja adalah fitur gratis ongkir. Melalui fitur ini, pembeli bisa mendapatkan barang tanpa perlu membayar ongkos kirim. Fitur ini sangat memudahkan penjual dan pembeli di Shopee sehingga mampu meningkatkan transaksi setiap harinya. Untuk bisa menjual produk dengan gratis ongkir, penjual perlu mendaftarkan tokonya dengan fitur gratis ongkir terlebih dahulu di Shopee dengan cara mudah. Umumnya, diperlukan waktu beberapa hari saja untuk pendaftaran dan verifikasi, kemudian jika telah disetujui akan muncul tulisan gratis ongkir di postingan produk. Produk yang dilengkapi dengan fitur gratis ongkir akan lebih menarik perhatian konsumen.
+        \n2. COD (Cash On Delivery)
+        \nFitur Shopee Indonesia yang tak kalah menarik adalah fitur COD atau Cash on Delivery. Fitur ini memungkinkan pembeli untuk melakukan pembayaran produk ketika barang sudah tiba di rumah. Untuk mengaktifkan fitur tersebut, pilih jasa pengiriman JnT pada saat checkout.
+        \n3. Voucher dan Cashback
+        \nShopee juga memiliki fitur voucher dan cashback berupa potongan pada saat pembelian. Voucher dan cashback tersebut diberikan dalam bentuk Shopee Pay atau Shopee Koin yang keduanya dapat digunakan untuk memotong pembayaran atau belanja selanjutnya. Untuk bisa memanfaatkan fitur ini, kamu perlu melakukan klaim pada saat penawaran atau memasukkan kode voucher pada saat checkout belanjaan.
+        \n4. Shopee Pay dan Shopee Coins
+        \nFitur lain yang dimiliki Shopee Indonesia adalah ShopeePay dan Shopee Koin. ShopeePay merupakan uang atau dompet elektronik yang digunakan untuk berbelanja di Shopee. Prinsip Shopee Pay sama dengan rekening bank, yaitu uang di dalamnya dapat digunakan untuk melakukan transaksi, bahkan bisa dikirim dari dan ke rekening. Umumnya, toko online yang ada di Shopee akan memberikan diskon khusus jika kamu membayar menggunakan Shopee Pay. Sedangkan Shopee Koin digunakan untuk menampung cashback dan reward potongan belanja.
+        \n5. Shopee Game
+        \nTak kalah menarik, kamu juga bisa memanfaatkan fitur game di Shopee untuk menghilangkan penat. Terdapat game seperti Goyang Shopee, Goyang Jari, Shopee Poli, Shopee Tanam, Shopee Potong, Shopee, Shopee Candy, Shopee Lempar, serta Shopee Candy dan Shopee Link. Semua permainan tersebut memberikan reward dan hadiah yang menarik, mulai dari koin, voucher, hingga smartphone."
+    </string>
+    <!--Toped-->
+    <string name="toped">Tokopedia</string>
+    <string name="sejarah_toped">"Tokopedia merupakan pasar atau mall online terbesar di Indonesia yang memungkinkan individu maupun pemilik usaha di Indonesia untuk membuka dan mengelola toko online mereka secara mudah dan gratis, sekaligus memberikan pengalaman berbelanja online yang lebih aman dan nyaman. Tokopedia sendiri menjelaskan di situs mereka bahwa keuntungan bagi pembeli dengan pembayaran UNIK adalah proses verifikasi pembayaran yang instan, yang memungkinkan penjual lebih cepat menerima order dan barang yang dijual bisa lebih cepat sampai ke pembeli. Sedangkan untuk penjual, keuntungan yang ditawarkan adalah perluasan pasar pada para pengguna UNIK yang ingin membeli di berbagai merchant Tokopedia. Pilihan pembayaran baru selain yang sudah ada ini akan memberikan transaksi online yang lebih cepat dan mudah.
+        \n\nBerikut beberapa fitur yang telah disediakan oleh Tokopedia:
+        \n1. Gold Merchant
+        \nBanyak sekali fitur-fitur unggulan yang terdapat di dalamnya dan pastinya akan menguntungkanmu. Gold Badge yang muncul di halaman toko dan produk yang akan menarik perhatian calon pembeli, TopAds yang pastinya akan sangat membantu kamu untuk promosi, Statistik Toko untuk memantau performa tokomu, 1 Slot Admin Toko Gratis yang bisa kamu gunakan untuk menambah admin toko. Semua itu bisa langsung kamu rasakan dengan berlangganan Gold Merchant.
+        \n2. Free Returns
+        \nFitur ini memungkinkan pembeli untuk meretur produk secara gratis jika tidak sesuai atau tidak cocok dengan catatan produk masih dalam kondisi layak dijual. Dengan memfasilitasi produkmu menggunakan Free Returns ini, tentunya tokomu akan lebih terlihat terpercaya di mata calon pembeli. Untuk penjual yang ingin menggunakan fitur ini, kamu tidak akan dikenakan biaya sama sekali sampai waktu yang ditentukan.
+        \n3. Stock Management
+        \nFitur ini akan memudahkanmu melihat sisa produk yang ada di toko, sehingga kamu tidak perlu lagi repot menghitung sisa produk setiap kali ada pesanan masuk. Dan yang paling penting, fitur ini bisa meminimalisir cancellation rate di tokomu karena stok produk yang habis akan otomatis masuk ke Stok Kosong, sehingga tidak dapat dipesan pembeli.
+        \n4. Mitra Toppers
+        \nMitra Toppers adalah program kerjasama Tokopedia dengan mitra penyedia pinjaman yang memudahkan kamu untuk mendapatkan pinjaman modal usaha. Tokopedia bekerja sama dengan beberapa mitra penyedia pinjaman yang bisa kamu pilih seperti : BRI, UOB, Amar Bank, DBS, Bank Sampoerna, Taralite, hingga Modalku. Modal yang kamu dapatkan bisa untuk memenuhi berbagai kebutuhan bisnis onlinemu, mulai dari menambah stok dan varian produk, menambah tenaga pekerjaan, sampai mendaftarkan merek dagang.
+        \n5. Pre - Order
+        \nDengan menggunakan fitur Pre Order, kamu bisa mendapatkan waktu tambahan untuk memproses pesanan sampai 30 hari. Fitur ini juga bisa kamu manfaatkan jika menerima pesanan dalam jumlah banyak. Jadi jika stok pesanan tidak mencukupi, produk tidak perlu digudangkan, kamu hanya cukup mengubahnya menjadi produk Pre Order. Dengan begitu, produk tersebut tetap bisa dilihat dan dibeli namun dengan waktu proses yang lebih lama."
+    </string>
+    <!--Mitra Gojek-->
+    <string name="mitra_gojek">"Untuk mendaftar menjadi Driver Gojek, ada sejumlah persyaratan yang juga perlu Anda persiapkan.
+        \nAdapun syarat – syaratnya, sebagai berikut:
+        \n1.	WNI (Warga negara Indonesia)
+        \n2.	Usia maksimal 65 tahun
+        \n3.	Menyiapkan KTP Asli
+        \n4.	SIM C/D Asli
+        \n5.	STNK Asli
+        \n6.	SKCK Asli/Legalisir
+        \n7.	Buku rekening tabungan
+        \n8.	Batas usia kendaraan maksimal 8 tahun (terhitung dari tahun pendaftaran)
+        \n9.	Kapasitas mesin maksimal 250 cc
+        \n10.	Kendaraan 4 Tak
+        \n11.	Bukan kendaraan motor Trail
+        \n\nUntuk jadi mitra Gojek, ada beberapa cara yang perlu kamu perhatikan agar pendaftaran berjalan lancaran. Adapun caranya yaitu sebagai berikut:
+        \n1. Unduh aplikasi GoPartner melalui PlayStore atau AppStore.
+        \n2. Buka aplikasi GoPartner, kemudian pilih 'Daftar Jadi Mitra'.
+        \n3. Masukan nomer ponsel Anda, tunggu hingga menerima kode OTP yang dikirim melalui SMS.
+        \n4. Setelah menerima kode OTP, masukan kode tersebut di kolom yang tersedia.
+        \n5. Lalu, pilih Motor/Mobil driver.
+        \n6. Berikutnya, mengisi identitas diri lengkap dengan dokumen yang dibutuhkan.
+        \n7. Tunggu hingga data yang kamu kirim  diverifikasi.
+        \n8. Jika sudah diverifikasi, maka kamu sudah jadi mitra Gojek."
+    </string>
+    <!--Mitra Grab-->
+    <string name="mitra_grab">"Untuk mendaftar menjadi Driver Gojek, ada sejumlah persyaratan yang juga perlu Anda persiapkan.
+        \nBerikut merupakan persyaratan administrasi:
+        \n1.	WNI (Warga Negara Indonesia)
+        \n2.	Mampu membaca dan menulis.
+        \n3.	Memiliki SIM C/D.
+        \n4.	Setidaknya berusia 18 tahun.
+        \n5.	Maksimal berusia 55th.
+        \n6.	Usia kendaraan maksimal 5 tahun pada saat pendaftaran di Grab.
+        \n7.	Lulus ujian berkendara dan training daring yang diselenggarakan oleh Grab.
+        \n8.	Mengisi saldo aplikasi sesuai dengan nominal yang ditetapkan oleh masing-masing kota.
+        \n\nBerikut merupakan persyaratan Dokumen:
+        \n1. Kartu Tanda Penduduk (eKTP)
+        \n2. Surat Izin Mengemudi (SIM)
+        \n3. Surat Tanda Nomor Kendaraan (STNK)
+        \n4. Buku Rekening.
+        \n5. Surat Keterangan Catatan Kepolisian (SKCK)
+        \n6. Surat Keterangan Sehat (Khusus bagi calon mitra usia 50 Tahun keatas)
+        \n\nBerikut merupakan tata cara mendaftar menjadi mitra Grab:
+        \n1. Pastikan dokumen Anda siap dan masih berlaku.
+        \n2. Daftar secara online.
+        \n3. Kunjungi Pusat Mitra Grab untuk proses verifikasi. Klik detail lokasi .
+        \n4. Datang dan lengkapi training mitra online Anda."
+    </string>
+    <!--Mitra Shopee-->
+    <string name="mitra_shopee">"Berikut merupakan cara mendaftar menjadi mitra Shopee:
+        \n1. Daftar Akun Shopee
+        \nBuka situs Shopee, Buat akun baru dengan klik ‘Daftar’, dan lakukan verifikasi nomor handphone dan email.
+        \n2. Lengkapi Profil Toko
+        \nSetelah memiliki akun di Shopee, langkah selanjutnya yakni melengkapi profil toko. Berikut caranya: Buka Aplikasi Shopee di handphone Anda, pilih ‘Saya’ lalu ‘Toko Saya’. Pilih ‘Asisten Penjual’ > ‘Profil Toko’ > kemudian lengkapi ‘Nama Toko’ > ‘Deskripsi Gambar’ > ‘Deskripsi’ setelah itu klik ikon ‘Centang’ di pojok kanan atas menu.
+        \n3. Tentukan Jasa Kirim
+        \nTahap selanjutnya, pilih jasa kirim yang ingin Anda gunakan ketika ingin mengirim produk yang toko Anda jual ke pembeli. Saat ini, pilihan jasa kirim yang bisa dipilih adalah JNE (YES, REG dan OKE), JnT Express, Pos Indonesia, Grab (same day), dan GoSend (same day).
+        \n\nSetelah melakukan pembukaan toko pada Shopee, seller juga bisa menentukan jasa kirim berdasarkan level toko. Berikut caranya:
+        \nBuka Aplikasi Shopee di handphone Anda, pilih ‘Saya’ lalu ‘Toko Saya’. Kemudian, pilih ‘Jasa Kirim Saya’ untuk memilih jasa kirim yang ingin diaktifkan atau dinonaktifkan pada level toko.
+        \n\nCara Memilih jasa kirim level produk:
+        \nBuka Aplikasi Shopee di handphone Anda, pilih ‘Saya’ lalu ‘Toko Saya’. Pilih ‘Asisten Penjual’ > ‘Produk Saya’ > kemudian pilih produk yang ingin diatur Jasa Kirimnya, dan Klik ‘Ubah Produk’ > ‘Ongkos Kirim’ setelah itu pilih Jasa Kirim yang ingin diaktifkan. Dalam Aplikasi akan terlihat Jasa Kirim yang diaktifkan dan dinonaktifkan pada produk. Pilih Jasa Kirim yang ingin diaktifkan/dinonaktifkan. Setelah itu klik ‘Simpan’.
+        \n\nCara Menambahkan rekening Bank:
+        \nPilih ‘Rekening Bank’ di Seller Center, atau ‘Pengaturan Saldo Penjual’ lewat Aplikasi Shopee.
+        \nKlik ‘Tambah Rekening Bank’ atau ‘Rekening Bank’ untuk menambahkan data rekening tabungan di Toko Shopee.
+        \n\nSetelah melengkapi data profil toko hingga memasukkan rekening bank, kini Anda sudah bisa mulai berjualan. Silakan upload produk yang dijual dengan mengikuti beberapa langkah ini:
+        \n1. Akses akun toko Anda di Seller Center (seller.shopee.co.id) atau klik Saya > Mulai Jual di Aplikasi Shopee.
+        \n2. Kemudian klik ‘Tambah Produk Baru’.
+        \n3. Lengkapi Informasi Penjualan dengan deskripsi produk yang lengkap dan sesuai, serta Informasi Pengiriman mengenai jasa kirim yang akan digunakan. Pastikan Produk yang diupload tidak termasuk barang yang dilarang oleh Shopee.
+        "
+    </string>
+    <!--Mitra Tokopedia-->
+    <string name="mitra_toped">"Cara Berjualan di Tokopedia
+        \n1. Membuat Identitas Seller Tokopedia yang Jelas, Jangan Anonim.
+        \nMembuat nama toko dan foto yang anonim ketika berjualan di tokopedia jangan sampai Sobat Pintar lakukan. Apalagi jika toko Sobat Pintar masih baru, calon pembeli pasti akan merasa ragu membeli barang disana. Unsur penting dalam berjualan adalah kepercayaan, jika Sobat Pintar gagal memberi kepercayaan kepada konsumen, bukan tidak mungkin produk di toko tidak akan laris. Pakai namamu atau nama apa saja yang dirasa tidak aneh dan terlihat profesional.
+        \n2. Menulis Deskripsi Toko dan Deskripsi Barang Jualan Dengan Jelas, Singkat dan Padat.
+        \nTips jadi penjual di Tokopedia selanjutnya adalah menuliskan deskripsi yang jelas dan singkat. Tulis gambaran yang menjadi keunggulan di toko Sobat Pintar dan informasi penting lainnya.
+        \n3. Membuat Catatan Toko.
+        \nBerbeda dengan deskripsi toko, catatan toko lebih detail dan informatif. Catatan toko ini menginformasikan bahwa toko Sobat Pintar menyajikan informasi yang jelas dan detail. Yang artinya, toko Sobat Pintar bukan toko yang bodong, semuanya aman dan perlihatkan bagaimana cara memesan.
+        \nBeberapa catatan yang biasanya kerap para penjual tulis di Tokopedia antara lain:
+        \n •	Kebijakan tentang Pengembalian Produk.
+        \n •	Tentang Ketentuan Same Day Delivery.
+        \n •	Bagaimana Cara Mendapatkan Free Bubble Wrap atau Box.
+        \n4. Gunakan Logo Sobat Pintar sebagai Profil Picture Toko.
+        \nLogo akan menjadi identitas yang penting untuk toko Sobat Pintar. Perhatikan, jangan sembarangan mengambil logo dari internet, usahakan original milik Sobat Pintar Gambar logo toko yang unik dan memiliki kekhasan menjadi nilai tambah untuk toko Sobat Pintar. jadikan toko Sobat Pintar tampil beda dari yang lain.
+        \n5. Jasa Pengiriman yang Bervariasi.
+        \nTips jadi penjual di Tokopedia selanjutnya adalah menyediakan jasa pengiriman yang beragam. Pembeli biasanya akan memilih toko yang mempunyai banyak pilihan untuk jasa ekspedisi. Coba Sobat Pintar terapkan ke toko Sobat Pintar juga.
+        \n6. Susun Etalase Barang Jualan dengan Rapi.
+        \nSeperti halnya di toko offline, tokopedia juga memiliki fitur etalase. Etalase yang rapi bisa memudahkan pembeli memilih produk. Buat juga kategori sesuai entitasnya. Tips jadi penjual di Tokopedia ini memberikan pembeli banyak pilihan dalam memilih produk. Niat ingin membeli satu jenis produk, karena melihat banyak produk yang terpajang, jadi ingin beli yang lain juga.
+        \n7. Memberikan Informasi Produk Yang Jelas.
+        \nPembeli selalu menginginkan dengan produk yang deskripsinya jelas dan menjawab apa yang dibutuhkan. Hal ini juga bisa menjadi pembeda dengan kompetitor yang memiliki produk serupa. Informasi produk yang jelas ini ada hubungannya langsung dengan SEO Marketplace. Dengan informasi produk yang sesuai dengan panduan SEO Marketplace, maka produk Sobat Pintar berpotensi dilirik oleh lebih banyak calon pembeli.
+        \n8. Menjual Produk Lebih Murah.
+        \nTips jadi penjual di Tokopedia selanjutnya adalah menjual produk sedikit lebih murah. Hal ini untuk toko yang belum pernah ada transaksi dan tidak memiliki brand yang kuat. Karena adalah rahasia umum perang harga selalu ada di tokopedia.
+        \n9. Selalu Update Toko agar Terlihat Aktif.
+        \nPenjual yang selalu aktif memberikan nilai tambah dalam hal kepercayaan pembeli. Membeli produk di toko yang jarang aktif pasti menimbulkan kecurigaan.
+        \n10. Selalu Fast Response Saat Costumer Membeli Barang Jualan.
+        \nLebih pilih mana, murah dan respon lama atau mahal fast respon. Kebanyakan pembeli lebih memilih yang sedikit lebih mahal namun fast respon. Fast response akan membuat calon pembeli Sobat Pintar yakin bahwa penjual ramah dengan calon pembeli. Calon pembeli akan merasa senang dan yakin saat pesanan mereka mendapatkan respon yang cepat. Inilah alasan yang cukup kuat untuk membuat mereka membeli dari toko Sobat Pintar.
+        \n11.  Install Aplikasi Tokopedia Seller di Gadget
+        \nSetiap seller tokopedia harus menginstall aplikasi ini. Tips jadi penjual di Tokopedia ini bermanfaat untuk menjawab chat pembeli dengan cepat atau mengupdate toko dengan mudah.
+        "
+    </string>
+    <!--Tentang-->
+    <string name="tentang_txt">Aplikasi technology advances yang berbasis android adalah aplikasi yang menampilkan informasi tentang E-commerce dan Ojek Online dari sisi pengguna ataupun mitra yang dapat ditemukan pada smartphone kita yang bisa digunakan sehari hari, dan juga bisa diakses tanpa menggunakan internet.</string>
+
+</resources>

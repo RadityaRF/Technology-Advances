@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kuning"
+    tools:context=".tentang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tentang"
+            android:fontFamily="@font/simplyround"
+            android:textSize="35sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_tentang"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/ecom_splash"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/tentang_txt"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/monseratmed"
+            android:textColor="@color/hitam"
+            android:justificationMode="inter_word"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

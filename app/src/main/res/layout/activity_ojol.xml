@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Ojol"
+    android:background="@color/kuning">
+
+    <!--Scrollview-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!--PARENT LAYOUT-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/ojolmenu"
+            android:textColor="@color/hitam"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/simplyround"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--Gojek-->
+    <androidx.cardview.widget.CardView
+        android:onClick="gojek"
+        app:cardBackgroundColor="@color/putih_tulang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:contentPadding="20dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:id="@+id/gojek_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/gojek"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gojek"
+                android:fontFamily="@font/simplyround"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/hitam"/>
+            <TextView
+                android:id="@+id/detailgojek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sejarah_gojek"
+                android:visibility="gone"
+                android:textSize="18sp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/monseratmed"
+                android:textColor="@color/hitam"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <!--Grab-->
+    <androidx.cardview.widget.CardView
+        android:onClick="grab"
+        app:cardBackgroundColor="@color/putih_tulang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:contentPadding="20dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:id="@+id/grab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/grab"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grab"
+                android:textSize="24sp"
+                android:fontFamily="@font/simplyround"
+                android:textStyle="bold"
+                android:textColor="@color/hitam"/>
+            <TextView
+                android:id="@+id/detailgrab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sejarah_grab"
+                android:visibility="gone"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/monseratmed"
+                android:textSize="18sp"
+                android:textColor="@color/hitam"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

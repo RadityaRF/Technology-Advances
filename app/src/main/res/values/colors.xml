@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kuning">#FFBD35</color>
+    <color name="hitam">#000000</color>
+    <color name="putih">#ffffff</color>
+    <color name="biru_dongker">#21325E</color>
+    <color name="putih_tulang">#EFEFEF</color>
+    <color name="hijau">#2EB086</color>
+    <color name="hitam_muda">#2C3333</color>
+    <color name="oren">#F76E11</color>
+</resources>

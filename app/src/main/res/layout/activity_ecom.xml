@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/kuning"
+    tools:context=".Ecom">
+    <!--Parent ScrollView-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--Parent Layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/menuecom"
+                android:textColor="@color/hitam"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/simplyround"
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--Shopee-->
+            <androidx.cardview.widget.CardView
+                android:onClick="shopee"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/shopee_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/shopee"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shopee"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailshopee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sejarah_shopee"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Tokopedia-->
+            <androidx.cardview.widget.CardView
+                android:onClick="toped"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/toped_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/toped"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toped"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailtoped"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sejarah_toped"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

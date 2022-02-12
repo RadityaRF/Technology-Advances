@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/kuning</item>
+        <item name="colorPrimaryDark">@color/hitam_muda</item>
+        <item name="colorAccent">@color/putih</item>
+        <!--Font-->
+        <item name="fontFamily">@font/monseratreg</item>
+        <item name="fontFamily">@font/monseratmed</item>
+        <item name="fontFamily">@font/simplyround</item>
+
+    </style>
+
+</resources>

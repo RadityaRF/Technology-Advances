@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/kuning"
+    tools:context=".mitra">
+    <!--Parent ScrollView-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--Parent Layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/menumitra"
+                android:textColor="@color/hitam"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/simplyround"
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--Mitra Gojek-->
+            <androidx.cardview.widget.CardView
+                android:onClick="mitragojek"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/mitragojek_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/gojek"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gojek"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailmitragojek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mitra_gojek"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Mitra Grab-->
+            <androidx.cardview.widget.CardView
+                android:onClick="mitragrab"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/mitragrab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/grab"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/grab"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailmitragrab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mitra_grab"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Mitra Shopee-->
+            <androidx.cardview.widget.CardView
+                android:onClick="mitrashopee"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/mitrashopee_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/shopee"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shopee"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailmitrashopee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mitra_shopee"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Mitra Tokopedia-->
+            <androidx.cardview.widget.CardView
+                android:onClick="mitratoped"
+                app:cardBackgroundColor="@color/putih_tulang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/mitratoped_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:src="@drawable/toped"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toped"
+                        android:fontFamily="@font/simplyround"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/detailmitratoped"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mitra_toped"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/monseratmed"
+                        android:textColor="@color/hitam"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
