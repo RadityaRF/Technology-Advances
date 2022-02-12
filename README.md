@@ -1,5 +1,5 @@
 # Technology-Advances
-Android App with simple cardview UI. This application contains information about online transportation in Indonesia, like Gojek and Grab. It also contains information about E - Commerce, especially in Indonesia.
+Android App with simple cardview UI. This application contains information about online transportation in Indonesia, like Gojek and Grab. It also contains information about E - Commerce, especially in Indonesia. Developing Application using Java Language 
 
 ## About
 Technology Advances Application based on Android is an application that show information about E-commerce and Online 
@@ -14,3 +14,13 @@ The appearance of this application is very simple but does not reduce the usabil
 - About Menu
 
 ![](Screenshot/about.jpeg)
+- Expand CardView
+
+![](Screenshot/expand.jpeg)
+- Collapse CardView
+
+![](Screenshot/collapse.jpeg)
+
+## Requirement
+- Lottie Depedency
+- Min. SDK = 21
